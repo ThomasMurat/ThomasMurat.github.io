@@ -1,8 +1,8 @@
 /* Menu */
 #menuNavigation {
-    position: absolute;
+    float: left;
     height: 1080px;
-    width: 280px;
+    width: 15%;
     background-image: url("../img/leftFond.jpg");
     background-color: rgb(75, 80, 80);
 }
@@ -42,29 +42,24 @@
     padding-bottom: 10px;
     width: 100%;
 }
-
 /* Bandeau du haut */
 #topArea {
     float: left;
-    margin-left: 280px;
-    height: 250px;
-    width: 1605px;
+   height: 250px;
+    width: 85%;
     background-image: url("../img/topFond.jpg");
-    background-color: steelblue;
 }
 #globalTitle {
     font-size: 30px;
     color: white;
-    padding-left: 800px;
+    padding-left: 45%;
     padding-top: 0px;
 }
 #contentPage {
     float: left;
-    margin-left: 280px;
-    width: 1605px;
+    width: 85%;
     height: 830px;
     background-image: url("../img/fondFeuilleFroisser.jpg");
-    background-color: tan;
 }
 /* page d'accueil   */
 #contentConteneurHome {
@@ -115,30 +110,22 @@ h2 {
     text-shadow: 1px 1px 2px #303131; 
 }
 /* Page présentation */
-#contentConteneurPresentation {
-    margin-top: 200px;
-    width: 100%;
-    height: 566px;
-}
-#contentPresentation{
-    width: 1280px;
-    height: 560px;
-    margin: 0 auto;
-    border-style: inset;
-    box-shadow: 8px 8px 12px rgb(75, 80, 80);
-}
 #presentation{
     float: left;
-    width: 1280px;
-    height: 560px;
-    background-image: linear-gradient(to top, grey , white 40px, white 520px, grey);
+    margin-top: 5%;
+    margin-left: 5%;  
+    width: 90%;
+    border-style: inset;
+    box-shadow: 8px 8px 12px rgb(75, 80, 80);
+    background-image: linear-gradient(to top, grey , white 5%, white 95%, grey);
 }
 #presentationTitle {
     text-align: center;
 }
 #presentationPicture {
     float: left;
-    padding-top: 40px;
+    padding-top: 5%;
+    padding-bottom: 5%;
     padding-left: 20px;
 }
 .presentationText {
@@ -154,15 +141,11 @@ h2 {
     padding-top: 20px; 
 }
 /* Page formation */
-#contentConteneurResume {
-    margin-top: 150px;
-    width: 100%;
-    height: 510px;
-}
 #resume{
-    width: 1280px;
+    width: 90%;
     height: 507px;
-    margin: 0 auto;
+    margin-top: 5%;
+    margin-left: 5%;
     border-style: inset;
     box-shadow: 8px 8px 12px rgb(75, 80, 80);
 }
@@ -173,35 +156,37 @@ h2 {
     text-align: center;
     border-bottom-style: outset;
     background-image: url("../img/fondParchemin.jpg");
-    background-color: yellowgreen;
 }
 #parcourtInitial {
     float: left;
-    width: 420px;
+    width: 33%;
     height: 410px;
-    background-image: linear-gradient(to right, grey , white 40px, white 380px, grey);
+    background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
 }
 #fondBac {
     height: 146px;
-    width: 340px;
+    width: 90%;
+    max-width: 420px;
     margin: 0 auto;
     background-image: url("../img/FondStJo.jpg");
 }
 #fondPrepa {
-    margin-top: 30px;
+    margin-top: 5%;
     height: 132px;
-    width: 340px;
+    width: 90%;
+    max-width: 420px;
     margin: 0 auto;
     background-image: url("../img/fondPierredAilly.jpg");
 }
 #urbanisme {
     float: left;
-    width: 440px;
+    width: 34%;
     height: 410px;
-    background-image: linear-gradient(to right, grey , white 40px, white 400px, grey);
+    background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
 }
 #fondPolytech {
-    width: 360px;
+    width: 90%;
+    max-width: 440px;
     height: 263px;
     margin-top: 30px;
     margin: 0 auto;
@@ -213,17 +198,19 @@ div[id*="fond"] p {
 }
 #pracourtDev {
     float: left;
-    width: 420px;
+    width: 33%;
     height: 410px;
-    background-image: linear-gradient(to right, grey , white 40px, white 380px, grey);
+    background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
 }
 .logoNumerique {
     float: left;
-    margin-left: 40px;
+    width: 40%;
+    max-width: 150px;
+    margin-left: 5%;
 }
 #cnfdi, #lamanu {
     float: left;
-    width: 380px;
+    width: 90%;
     height: 150px;
 }
 #lamanu {
@@ -233,15 +220,11 @@ h3 {
     text-align: center;
 }
 /* page compétences */
-#contentConteneurSkills {
-    margin-top: 150px;
-    width: 100%;
-    height: 480px;
-}
 #skills{
-    width: 1280px;
-    height: 550px;
-    margin: 0 auto;
+    width: 90%;
+    height: 600px;
+    margin-left: 5%;
+    margin-top: 5%;
     border-style: inset;
     box-shadow: 8px 8px 12px rgb(75, 80, 80);
 }
@@ -252,32 +235,29 @@ h3 {
     text-align: center;
     border-bottom-style: outset;
     background-image: url("../img/fondParchemin.jpg");
-    background-color: yellowgreen;
 }
 #computerSkills {
     float: left;
     width: 33%;
-    height: 480px;
+    height: 503px;
     background-image: url("../img/fondBinaire.jpg");
-    background-color: turquoise;
 }
 #languageSkills {
     float: left;
     width: 34%;
-    height: 480px;
+    height: 503px;
     background-image: url("../img/fondWorld.jpg");
-    background-color: violet;
 }
 #otherSkills {
     float: left;
     width: 33%;
-    height: 480px;
+    height: 503px;
     background-image: url("../img/fondPageCarreaux.png");
-    background-color: rgb(189, 26, 26);
 }
 #computerSkills fieldset, #languageSkills fieldset {
     background-color: rgba(255, 253, 253, 0.4);
     width: 80%;
+    height: 120px;
     margin: 0 auto;
     text-align: center;
     border-radius: 20px;
@@ -291,29 +271,34 @@ legend {
     border-radius: 4px;
     text-align: center;
 }
+#computerSkills img {
+    width: 18%;
+    max-width: 64px;
+}
+#languageSkills img {
+    float: left;
+}
 /* page Experiences */
 #contentPageExperience {
     float: left;
-    margin-left: 280px;
-    width: 1605px;
+    width: 85%;
     height: 2550px;
     background-image: url("../img/fondFeuilleFroisser.jpg");
-    background-color: tan;
 }
 #menuNavigationExperience {
-    position: absolute;
+    float: left;
     height: 2800px;
-    width: 280px;
+    width: 15%;
     background-image: url("../img/leftFond.jpg");
     background-color: rgb(75, 80, 80);
 }
 #contentConteneurExperiencesTitle {
     width: 100%;
     height: 70px;
-    margin-top: 100px;
+    margin-top: 5%;
 }
 #ExperiencesTitle {
-    width: 1280px;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
     padding-top: 1px;
@@ -329,14 +314,14 @@ legend {
     margin-top: 100px;
 }
 .contentExperiences, .contentPortfolio {
-    width: 1280px;
+    width: 90%;
     height: 480px;
     border-style: inset;
     margin: 0 auto;
     box-shadow: 8px 8px 12px rgb(75, 80, 80);
     background-image: linear-gradient(to top, grey , white 40px, white 430px, grey);
 }
-img[alt="Logo Complétude"] {
+img[alt="Logo Complétude"], img[title*="Mairie"] {
     float: left;
     padding-top: 90px;
     padding-left: 30px;
@@ -345,9 +330,9 @@ img[alt="Logo Complétude"] {
     padding-top: 50px;
 }
 h3 + p {
-    padding-top: 50px;
+    padding-top: 3%;
 }
-img[title="Nihongo Center"], img[title*="Mairie"], img[title*="Chanel"] {
+img[title="Nihongo Center"], img[title*="Chanel"] {
     float: left;
     padding-top: 40px;
     padding-left: 30px;
@@ -364,7 +349,7 @@ img[title="Nihongo Center"], img[title*="Mairie"], img[title*="Chanel"] {
 }
 .experience3Paragraph {
     padding-right: 30px;
-    padding-left: 653px;
+    padding-left: 550px;
     text-align: justify;
 }
 .experience4Paragraph {
@@ -375,16 +360,15 @@ img[title="Nihongo Center"], img[title*="Mairie"], img[title*="Chanel"] {
 /* page Portfolio */
 #contentPagePortfolio {
     float: left;
-    margin-left: 280px;
-    width: 1605px;
+    width: 85%;
     height: 1450px;
     background-image: url("../img/fondFeuilleFroisser.jpg");
     background-color: tan;
 }
 #menuNavigationPortfolio {
-    position: absolute;
+    float: left;
     height: 1700px;
-    width: 280px;
+    width: 15%;
     background-image: url("../img/leftFond.jpg");
     background-color: rgb(75, 80, 80);
 }
@@ -394,7 +378,7 @@ img[title="Nihongo Center"], img[title*="Mairie"], img[title*="Chanel"] {
     margin-top: 100px;
 }
 #portfolioTitle {
-    width: 1280px;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
     padding-top: 1px;
@@ -411,6 +395,7 @@ img[title="Nihongo Center"], img[title*="Mairie"], img[title*="Chanel"] {
 }
 img[alt*="capture"] {
     float: left;
+    width: 50%;
     padding-top: 40px;
 }
 .contentPortfolio h3 {
@@ -418,7 +403,7 @@ img[alt*="capture"] {
 }
 .contentPortfolio p {
     padding-right: 30px;
-    padding-left: 827px;
+    padding-left: 52%;
     text-align: justify;
 }
 .contentPortfolio a {
