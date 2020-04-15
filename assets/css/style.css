@@ -455,11 +455,11 @@ h3 {
     height: 240px;
     background-image: linear-gradient(to right, grey , white 10%, white 90%, grey);
 }
-#wellcomesTitle {
+#wellcomesTitle, #presentationTitle {
     padding-top: 5%;
     text-align: center;
 }
-#wellcomesText { 
+#wellcomesText, .presentationText { 
     color: #7a7c7f; 
     font-size: 10px; 
     text-indent: 30px;
@@ -477,6 +477,29 @@ h2 {
     font-weight: normal; 
     text-align: center; 
     text-shadow: 1px 1px 2px #303131; 
+}
+/* Page présentation */
+#presentation{
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;  
+    width: 90%;
+    border-style: inset;
+    box-shadow: 8px 8px 12px rgb(75, 80, 80);
+    background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
+}
+#presentationTitle {
+    padding-right: 5%;
+}
+.presentationText {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+#presentationPicture {
+    float: left;
+    padding-top: 5%;
+    padding-right: 2%;
+    padding-left: 5%;
 }
 /* page me contacter */
 #postalAdress, #emailAdress {
