@@ -434,6 +434,11 @@ h3 {
     padding-top: 20%;
     background-image: url("../img/fondFeuilleFroisser.jpg");
 }
+#contentPagePresentation {
+    height: 490px;
+    padding-top: 10%;
+    background-image: url("../img/fondFeuilleFroisser.jpg");
+}
 /* page d'accueil   */
 #contentHome, #contentContact {
     width: 326px;
