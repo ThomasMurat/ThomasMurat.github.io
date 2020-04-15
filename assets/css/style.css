@@ -379,9 +379,58 @@ img[alt*="capture"] {
     padding-right: 40px;
 }
 }
-@media screen and (min-width:768) and (max-width:1199) {
-
+@media screen and (max-width:767px) {
+/* Menu */
+#menuNavigation, #menuNavigationExperience, #menuNavigationPortfolio {
+    height: 120px;
+    background-image: url("../img/leftFond.jpg");
+    background-color: rgb(75, 80, 80);
 }
-@media screen and (max-width:767) {
+#home {
+    float: left;
+    text-align: center;
+    height: fit-content;
+    width: 100%;
+    margin-top: -40px;
+}
+#englishButton, #frenchButton {
+    float: left;
+    text-align: center;
+    margin-top: 3%;
+    width: 50%;
+    height: fit-content;
+}
+.navigationButton {
+    float: left;
+    text-align: center;
+    height: fit-content;
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* Bandeau du haut */
+.col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+#topArea {
+    height: 90px;
+    background-image: url("../img/topFond.jpg");
+}
+#globalTitle {
+    color: white;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+h1 {
+    font-size: 18px;
+}
+#contentPage {
+    height: 830px;
+    padding-top: 5%;
+    background-image: url("../img/fondFeuilleFroisser.jpg");
+}
+}
+@media screen and (min-width:768px) and (max-width:1199px) {
 
 }
