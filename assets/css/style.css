@@ -46,7 +46,7 @@
     padding-left: 5%;
     padding-top: 2%;
 }
-#contentPage {
+#contentPageWelcome, #contentPagePresentation, #contentPageResume, #contentPageSkills, #contentPageContact {
     height: 830px;
     padding-top: 5%;
     background-image: url("../img/fondFeuilleFroisser.jpg");
@@ -425,10 +425,73 @@ img[alt*="capture"] {
 h1 {
     font-size: 18px;
 }
-#contentPage {
-    height: 830px;
-    padding-top: 5%;
+h3 {
+    text-align: center;
+    font-size: 15px;
+}
+#contentPageWelcome, #contentPageContact {
+    height: 490px;
+    padding-top: 20%;
     background-image: url("../img/fondFeuilleFroisser.jpg");
+}
+/* page d'accueil   */
+#contentHome, #contentContact {
+    width: 326px;
+    height: 246px;
+    border-style: inset;
+    margin-left: 5%;
+    box-shadow: 8px 8px 12px rgb(75, 80, 80);
+    background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
+}
+#myPictureHome {
+    float: left;
+    text-align: right;
+    width: 160px;
+    height: 240px;
+}
+#wellcomes {
+    float: left;
+    width: 160px;
+    height: 240px;
+    background-image: linear-gradient(to right, grey , white 10%, white 90%, grey);
+}
+#wellcomesTitle {
+    padding-top: 5%;
+    text-align: center;
+}
+#wellcomesText { 
+    color: #7a7c7f; 
+    font-size: 10px; 
+    text-indent: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    font-family: "Libre Baskerville", serif; 
+    line-height: 10px; 
+    padding-top: 5%; 
+}
+h2 { 
+    color: rgb(141, 166, 219); 
+    font-family: 'Rouge Script', cursive; 
+    font-size: 20px; 
+    font-weight: normal; 
+    text-align: center; 
+    text-shadow: 1px 1px 2px #303131; 
+}
+/* page me contacter */
+#postalAdress, #emailAdress {
+    width: 80%;
+    margin-left: 10%;
+    border-bottom: 1px solid rgb(12, 12, 12);
+    border-top: 1px solid rgb(12, 12, 12);
+}
+#postalAdress p, #emailAdress p {
+    padding-left: 5%;
+    font-size: 10px;
+}
+#postalAdress img, #emailAdress a {
+    float: right;
+    font-size: 10px;
 }
 }
 @media screen and (min-width:768px) and (max-width:1199px) {
