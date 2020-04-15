@@ -1,9 +1,7 @@
 @media screen and (min-width:1200px) {
 /* Menu */
 #menuNavigation {
-    float: left;
     height: 1080px;
-    width: 15%;
     background-image: url("../img/leftFond.jpg");
     background-color: rgb(75, 80, 80);
 }
@@ -33,11 +31,13 @@
     padding-bottom: 10px;
     width: 100%;
 }
+.col-lg-10 {
+    padding-left: 0;
+    padding-right: 0;
+}
 /* Bandeau du haut */
 #topArea {
-    float: left;
-   height: 250px;
-    width: 85%;
+    height: 250px;
     background-image: url("../img/topFond.jpg");
 }
 #globalTitle {
@@ -47,9 +47,8 @@
     padding-top: 2%;
 }
 #contentPage {
-    float: left;
-    width: 85%;
     height: 830px;
+    padding-top: 5%;
     background-image: url("../img/fondFeuilleFroisser.jpg");
 }
 /* page d'accueil   */
@@ -58,7 +57,6 @@
     height: 486px;
     border-style: inset;
     margin-left: 20%;
-    margin-top: 10%;
     box-shadow: 8px 8px 12px rgb(75, 80, 80);
     background-image: linear-gradient(to right, grey , white 40px, white 560px, grey);
 }
@@ -164,7 +162,7 @@ h2 {
     height: 132px;
     width: 90%;
     max-width: 420px;
-    margin: 0 auto;
+    margin-left: 5%;
     background-image: url("../img/fondPierredAilly.jpg");
 }
 #urbanisme {
@@ -266,14 +264,12 @@ legend {
 /* page Experiences */
 #contentPageExperience {
     float: left;
-    width: 85%;
     height: 2550px;
     background-image: url("../img/fondFeuilleFroisser.jpg");
 }
 #menuNavigationExperience {
     float: left;
     height: 2800px;
-    width: 15%;
     background-image: url("../img/leftFond.jpg");
 }
 #ExperiencesTitle, #portfolioTitle {
@@ -337,14 +333,12 @@ img[title="Nihongo Center"], img[title*="Chanel"] {
 /* page Portfolio */
 #contentPagePortfolio {
     float: left;
-    width: 85%;
     height: 1450px;
     background-image: url("../img/fondFeuilleFroisser.jpg");
 }
 #menuNavigationPortfolio {
     float: left;
     height: 1700px;
-    width: 15%;
     background-image: url("../img/leftFond.jpg");
     background-color: rgb(75, 80, 80);
 }
