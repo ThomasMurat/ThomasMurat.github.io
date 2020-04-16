@@ -413,6 +413,10 @@ img[alt*="capture"] {
     padding-left: 0;
     padding-right: 0;
 }
+#rowBug {
+    margin-left: 0;
+    margin-right: 0;
+}
 #topArea {
     height: 90px;
     background-image: url("../img/topFond.jpg");
@@ -437,6 +441,10 @@ h3 {
 #contentPagePresentation {
     height: 490px;
     padding-top: 10%;
+    background-image: url("../img/fondFeuilleFroisser.jpg");
+}
+#contentPagePortfolio, #contentPageExperience {
+    float: left;
     background-image: url("../img/fondFeuilleFroisser.jpg");
 }
 /* page d'accueil   */
@@ -505,6 +513,47 @@ h2 {
     padding-top: 5%;
     padding-right: 2%;
     padding-left: 5%;
+}
+/* page Experiences */
+#ExperiencesTitle, #portfolioTitle {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-image: url("../img/fondParchemin.jpg");
+    border-style: inset;
+    box-shadow: 8px 8px 12px rgb(75, 80, 80);
+}
+.contentExperiences, .contentPortfolio {
+    float: left;
+    width: 90%;
+    border-style: inset;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    box-shadow: 8px 8px 12px rgb(75, 80, 80);
+    background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
+}
+/* page Portfolio */
+img[alt*="capture"], .contentExperiences img {
+    margin-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contentPortfolio h3, .contentExperiences h3 {
+    font-weight: bold;
+}
+.contentPortfolio p, .contentExperiences p {
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: justify;
+}
+.contentPortfolio a {
+    float: right;
+    padding-bottom: 5%;
+    padding-right: 5%;
 }
 /* page me contacter */
 #postalAdress, #emailAdress {
