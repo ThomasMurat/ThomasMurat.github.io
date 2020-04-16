@@ -74,12 +74,12 @@
 #myPictureHome {
     float: left;
     text-align: right;
-    width: 320px;
+    width: 50%;
     height: 480px;
 }
 #wellcomes {
     float: left;
-    width: 320px;
+    width: 50%;
     height: 480px;
     background-image: linear-gradient(to right, grey , white 40px, white 280px, grey);
 }
