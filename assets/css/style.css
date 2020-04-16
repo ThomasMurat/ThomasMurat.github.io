@@ -443,7 +443,7 @@ h3 {
     padding-top: 10%;
     background-image: url("../img/fondFeuilleFroisser.jpg");
 }
-#contentPagePortfolio, #contentPageExperience {
+#contentPagePortfolio, #contentPageExperience, #contentPageResume {
     float: left;
     background-image: url("../img/fondFeuilleFroisser.jpg");
 }
@@ -514,6 +514,74 @@ h2 {
     padding-right: 2%;
     padding-left: 5%;
 }
+/* Page formation */
+#resume{
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    height: 1222px;
+    border-style: inset;
+    box-shadow: 8px 8px 12px rgb(75, 80, 80);
+}
+#resumeTitle, #skillsTitle, #contactTitle {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    height: fit-content;
+    text-align: center;
+    border-bottom-style: outset;
+    background-image: url("../img/fondParchemin.jpg");
+}
+#parcourtInitial h3 {
+    margin-top: 5%;
+}
+#parcourtInitial {
+    float: left;
+    width: 100%;
+    background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
+}
+#fondBac {
+    height: 146px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    background-image: url("../img/FondStJo.jpg");
+}
+#fondPrepa {
+    margin-top: 5%;
+    height: 132px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    background-image: url("../img/fondPierredAilly.jpg");
+}
+#urbanisme {
+    float: left;
+    width: 100%;
+    background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
+}
+#fondPolytech {
+    width: 90%;
+    height: 263px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    background-image: url("../img/fondPolytech.jpg");
+}
+div[id*="fond"] p {
+    color: rgb(253, 253, 253);
+    text-shadow: 2px 2px rgb(12, 12, 12); 
+}
+#pracourtDev {
+    float: left;
+    width: 100%;
+    background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
+}
+.logoNumerique {
+    margin-left: 30%;
+}
+#lamanu {
+    margin-top: 30px;
+}
 /* page Experiences */
 #ExperiencesTitle, #portfolioTitle {
     width: 90%;
@@ -542,10 +610,10 @@ img[alt*="capture"], .contentExperiences img {
     padding-top: 5%;
     padding-bottom: 5%;
 }
-.contentPortfolio h3, .contentExperiences h3 {
+.contentPortfolio h3, #resume h3, .contentExperiences h3 {
     font-weight: bold;
 }
-.contentPortfolio p, .contentExperiences p {
+.contentPortfolio p, #pracourtDev p, .contentExperiences p {
     padding-right: 5%;
     padding-left: 5%;
     text-align: justify;
@@ -556,7 +624,7 @@ img[alt*="capture"], .contentExperiences img {
     padding-right: 5%;
 }
 /* page me contacter */
-#postalAdress, #emailAdress {
+#postalAdress, #resume h3, #emailAdress {
     width: 80%;
     margin-left: 10%;
     border-bottom: 1px solid rgb(12, 12, 12);
