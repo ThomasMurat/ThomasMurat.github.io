@@ -413,7 +413,7 @@ img[alt*="capture"] {
     padding-left: 0;
     padding-right: 0;
 }
-#rowBug {
+.row {
     margin-left: 0;
     margin-right: 0;
 }
@@ -443,7 +443,7 @@ h3 {
     padding-top: 10%;
     background-image: url("../img/fondFeuilleFroisser.jpg");
 }
-#contentPagePortfolio, #contentPageExperience, #contentPageResume {
+#contentPagePortfolio, #contentPageSkills, #contentPageExperience, #contentPageResume {
     float: left;
     background-image: url("../img/fondFeuilleFroisser.jpg");
 }
@@ -581,6 +581,59 @@ div[id*="fond"] p {
 }
 #lamanu {
     margin-top: 30px;
+}
+/* page compétences */
+#skills{
+    width: 90%;
+    height: 1453px;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-style: inset;
+    box-shadow: 8px 8px 12px rgb(75, 80, 80);
+}
+#computerSkills {
+    float: left;
+    width: 100%;
+    background-image: url("../img/fondBinaire.jpg");
+}
+#languageSkills {
+    float: left;
+    width: 100%;
+    background-image: url("../img/fondWorld.jpg");
+}
+#otherSkills {
+    float: left;
+    width: 100%;
+    height: 503px;
+    background-image: url("../img/fondPageCarreaux.png");
+}
+#computerSkills fieldset, #languageSkills fieldset {
+    background-color: rgba(255, 253, 253, 0.4);
+    width: 90%;
+    height: 120px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    text-align: center;
+    border-radius: 20px;
+} 
+legend {
+    background-color: rgba(255, 253, 253, 0.5);
+    border-radius: 4px;
+    font-size: 15px;
+    width: 32%;
+    margin-left: 4%;
+}
+.skillsSubtitle {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    margin-top: 5%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+#languageSkills img {
+    float: left;
 }
 /* page Experiences */
 #ExperiencesTitle, #portfolioTitle {
