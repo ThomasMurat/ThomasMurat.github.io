@@ -35,13 +35,15 @@
 #topArea {
     height: 200px;
     width: 100%;
+    display: flex;
     background-image: url("../img/topFond.jpg");
 }
 #globalTitle {
     font-size: 30px;
+    font-family: 'Rouge Script', cursive; 
     color: white;
     padding-left: 5%;
-    padding-top: 2%;
+    align-self: center;
 }
 #contentPage {
     float: left;
@@ -54,9 +56,9 @@
 #contentHome, #contentContact {
     width: 646px;
     height: 486px;
-    border-style: inset;
+    border-style: solid;
+    border-color: rgb(141, 141, 140);
     margin: 0 auto;
-    box-shadow: 8px 8px 12px rgb(75, 80, 80);
     background-image: linear-gradient(to right, grey , white 40px, white 560px, grey);
 }
 #myPictureHome {
@@ -76,16 +78,13 @@
     text-align: center;
 }
 #wellcomesText { 
-    color: #7a7c7f; 
-    font-size: 20px; 
+    font-size: 15px; 
     text-indent: 30px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 20px;
     text-align: justify;
-    font-family: "Libre Baskerville", serif; 
-    line-height: 20px; 
-    text-shadow: 0 1px 1px rgb(12, 12, 12); 
-    padding-top: 20px; 
+    font-family: 'Rouge Script', cursive; 
 }
 h2 { 
     color: rgb(141, 166, 219); 
@@ -100,8 +99,8 @@ h2 {
     float: left;
     margin-left: 5%;
     width: 90%;
-    border-style: inset;
-    box-shadow: 8px 8px 12px rgb(75, 80, 80);
+    border-style: solid;
+    border-color: rgb(141, 141, 140);
     background-image: linear-gradient(to top, grey , white 5%, white 95%, grey);
 }
 #presentationTitle {
@@ -116,15 +115,12 @@ h2 {
     padding-right: 30px;
 }
 .presentationText {
-    color: #7a7c7f; 
-    font-size: 20px; 
+    font-size: 15px; 
     text-indent: 30px;
     padding-left: 30px;
     padding-right: 30px;
     text-align: justify;
-    font-family: "Libre Baskerville", serif; 
-    line-height: 20px; 
-    text-shadow: 0 1px 1px rgb(12, 12, 12); 
+    font-family: 'Rouge Script', cursive; 
     padding-top: 20px; 
 }
 /* Page formation */
@@ -134,7 +130,9 @@ h2 {
     padding-top: 1px;
     padding-bottom: 1px;
     text-align: center;
-    border-bottom-style: outset;
+    font-family: 'Rouge Script', cursive; 
+    border-bottom-style: solid;
+    border-color: rgb(141, 141, 140);
     background-image: url("../img/fondParchemin.jpg");
 }
 #resumeColon, #skillsColon {
@@ -145,7 +143,7 @@ h2 {
 }
 #parcourtInitial, #urbanisme, #pracourtDev {
     float: left;
-    width: 33.33%;
+    width: 33.333333%;
     background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
 }
 #fondBac, #fondPrepa, #fondPolytech {
@@ -163,58 +161,50 @@ h2 {
     background-image: url("../img/fondPierredAilly.jpg");
 }
 #fondPolytech {
-    height: 263px;
+    height: 251px;
     background-image: url("../img/fondPolytech.jpg");
 }
-div[id*="fond"] p {
-    color: rgb(253, 253, 253);
-    text-shadow: 2px 2px rgb(12, 12, 12); 
+#resume p {
+    text-align: center;
+    font-family: 'Rouge Script', cursive; 
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 #lamanu {
     margin-top: 30px;
 }
 h3, #pracourtDev {
+    font-family: 'Rouge Script', cursive; 
     text-align: center;
 }
 /* page compétences */
-#computerSkills {
+#computerSkills, #languageSkills, #otherSkills {
     float: left;
-    width: 33%;
-    background-image: url("../img/fondBinaire.jpg");
+    width: 33.33%;
+    background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
 }
-#languageSkills {
-    float: left;
-    width: 34%;
-    background-image: url("../img/fondWorld.jpg");
-}
-#otherSkills {
-    float: left;
-    width: 33%;
-    background-image: url("../img/fondPageCarreaux.png");
-}
-#computerSkills fieldset, #languageSkills fieldset {
-    background-color: rgba(255, 253, 253, 0.4);
+#computerSkills fieldset, #languageSkills fieldset, #otherSkills fieldset {
     width: 90%;
     margin-bottom: 5%;
     margin-left: 5%;
     text-align: center;
-    border-radius: 20px;
 } 
-legend {
-    background-color: rgba(255, 253, 253, 0.5);
-    border-radius: 4px;
+#skills p {
+    font-family: 'Rouge Script', cursive; 
     font-size: 15px;
+}
+legend {
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Rouge Script', cursive; 
     width: 32%;
-    margin-left: 4%;
+    margin-left: 34%;
 }
 .skillsSubtitle {
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 4px;
     margin-top: 5%;
+    font-family: 'Rouge Script', cursive; 
     text-align: center;
-}
-#languageSkills img {
-    float: left;
 }
 /* page Experiences */
 #ExperiencesTitle, #portfolioTitle {
@@ -225,7 +215,6 @@ legend {
     padding-bottom: 1px;
     background-image: url("../img/fondParchemin.jpg");
     border-style: inset;
-    box-shadow: 8px 8px 12px rgb(75, 80, 80);
 }
 .contentExperiences, .contentPortfolio {
     float: left;
@@ -233,7 +222,6 @@ legend {
     border-style: inset;
     margin-top: 5%;
     margin-left: 5%;
-    box-shadow: 8px 8px 12px rgb(75, 80, 80);
     background-image: linear-gradient(to top, grey , white 5%, white 95%, grey);
 }
 .contentExperiences h3, .contentPortfolio h3 {
@@ -249,9 +237,11 @@ h3 + p {
     padding-right: 10px;
     padding-bottom: 30px;
 }
-.contentExperiences p {
+.contentExperiences p, .contentPortfolio p {
     margin-right: 30px;
     margin-left: 30px;
+    font-size: 15px;
+    font-family: 'Rouge Script', cursive; 
     text-align: justify;
 }
 /* page Portfolio */
@@ -261,11 +251,6 @@ img[alt*="capture"] {
     padding-left: 30px;
     padding-right: 10px;
     padding-bottom: 10px;
-}
-.contentPortfolio p {
-    padding-right: 30px;
-    padding-left: 30px;
-    text-align: justify;
 }
 .contentPortfolio a {
     float: right;
@@ -345,7 +330,6 @@ h3 {
     height: 246px;
     border-style: inset;
     margin: 0 auto;
-    box-shadow: 8px 8px 12px rgb(75, 80, 80);
     background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
 }
 #myPictureHome, #wellcomes {
@@ -385,7 +369,6 @@ h2 {
     margin-left: 5%; 
     width: 90%;
     border-style: inset;
-    box-shadow: 8px 8px 12px rgb(75, 80, 80);
     background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
 }
 #presentationTitle {
@@ -448,7 +431,6 @@ div[id*="fond"] p {
     width: 90%;
     margin-left: 5%;
     border-style: inset;
-    box-shadow: 8px 8px 12px rgb(75, 80, 80);
 }
 #computerSkills, #languageSkills, #otherSkills {
     float: left;
@@ -501,7 +483,6 @@ legend {
     padding-bottom: 1px;
     background-image: url("../img/fondParchemin.jpg");
     border-style: inset;
-    box-shadow: 8px 8px 12px rgb(75, 80, 80);
 }
 .contentExperiences, .contentPortfolio {
     float: left;
@@ -510,7 +491,6 @@ legend {
     margin-top: 5%;
     margin-left: 5%;
     text-align: center;
-    box-shadow: 8px 8px 12px rgb(75, 80, 80);
     background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
 }
 /* page Portfolio */
