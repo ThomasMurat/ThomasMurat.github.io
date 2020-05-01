@@ -1,162 +1,82 @@
-@media screen and (min-width:992px) {
-/* Menu */
-.row {
-    display: flex;
-    align-items: stretch;
-}
+/* Common part */
+/* Common Page */
 #menuNavigation {
     background-image: url("../img/leftFond.jpg");
 }
-#home {
-    float: left;
-    text-align: center;
-    height: fit-content;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 100%;
-}
 #englishButton, #frenchButton {
-    float: left;
-    text-align: center;
-    width: 50%;
     margin-top: 3%;
 }
-#home + div {
-    margin-top: 50px;
+.selected, .navigationButton:hover {
+    border-radius: 10px;
+    background-color: rgba(141, 141, 140, 0.4);
 }
-.navigationButton {
-    float: left;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-}
-/* Bandeau du haut */
 #topArea {
-    height: 200px;
-    width: 100%;
-    display: flex;
     background-image: url("../img/topFond.jpg");
 }
 #globalTitle {
-    font-size: 30px;
-    font-family: 'Rouge Script', cursive; 
-    color: white;
     padding-left: 5%;
-    align-self: center;
 }
 #contentPage {
-    float: left;
-    width: 100%;
     padding-bottom: 5%;
     padding-top: 5%;
     background-image: url("../img/fondFroisser.jpg");
 }
-/* page d'accueil   */
-#contentHome, #contentContact {
-    width: 646px;
-    height: 486px;
-    border-style: solid;
-    border-color: rgb(141, 141, 140);
-    margin: 0 auto;
-    background-image: linear-gradient(to right, grey , white 40px, white 560px, grey);
-}
-#myPictureHome {
-    float: left;
-    text-align: right;
-    width: 50%;
-    height: 480px;
-}
-#wellcomes {
-    float: left;
-    width: 50%;
-    height: 480px;
-    background-image: linear-gradient(to right, grey , white 40px, white 280px, grey);
-}
-#wellcomesTitle {
-    padding-top: 30px;
-    text-align: center;
-}
-#wellcomesText { 
-    font-size: 15px; 
-    text-indent: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 20px;
-    text-align: justify;
+h1, h2, h3, p, legend {
     font-family: 'Rouge Script', cursive; 
 }
 h2 { 
     color: rgb(141, 166, 219); 
-    font-family: 'Rouge Script', cursive; 
-    font-size: 30px; 
-    font-weight: normal; 
-    text-align: center; 
     text-shadow: 1px 1px 2px #303131; 
 }
-/* Page présentation */
-#presentation, #resume, #skills {
-    float: left;
-    margin-left: 5%;
-    width: 90%;
+/* Home Page */
+.borderf, .borderb {
+    border-color: rgb(141, 141, 140);
+    border-width: 3px;
+}
+.borderf {
     border-style: solid;
-    border-color: rgb(141, 141, 140);
-    background-image: linear-gradient(to top, grey , white 5%, white 95%, grey);
 }
-#presentationTitle {
-    text-align: center;
-    padding-top: 3%;
-}
-#presentationPicture {
-    float: left;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 30px;
-}
-.presentationText {
-    font-size: 15px; 
-    text-indent: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    text-align: justify;
-    font-family: 'Rouge Script', cursive; 
-    padding-top: 20px; 
-}
-/* Page formation */
-#resumeTitle, #skillsTitle, #contactTitle {
-    float: left;
-    width: 100%;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    text-align: center;
-    font-family: 'Rouge Script', cursive; 
+.borderb {
     border-bottom-style: solid;
-    border-color: rgb(141, 141, 140);
+}
+#resumeTitle, #skillsTitle, #contactTitle, #ExperiencesTitle, #portfolioTitle {
     background-image: url("../img/fondParchemin.jpg");
 }
-#resumeColon, #skillsColon {
-    float: left;
-    width: 100%;
-    display: flex;
-    align-items: stretch;
+#ExperiencesTitle, #portfolioTitle, #presentation, #resume, #skills, #computerSkills fieldset, #languageSkills fieldset, #otherSkills fieldset, .contentExperiences, .contentPortfolio {
+    width: 90%;
+    margin-left: 5%;
 }
-#parcourtInitial, #urbanisme, #pracourtDev {
-    float: left;
-    width: 33.333333%;
+#wellcomes, #contentHome, #contentContact, #presentation, #resume, #skills, #parcourtInitial, #urbanisme, #pracourtDev, #computerSkills, #languageSkills, #otherSkills {
     background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
 }
+#wellcomesText, .presentationText, .contentExperiences p, .contentPortfolio p { 
+    text-indent: 30px;
+    text-align: justify;
+}
+#resume p, #wellcomesText, .presentationText, .contentExperiences p, .contentPortfolio p {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+#wellcomesTitle, #presentationTitle, #wellcomesText, .presentationText, .contentExperiences h3, .contentPortfolio h3, h3 + p {
+    padding-top: 3%;
+}
+/* Presentation Page */
+#presentationPicture {
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+}
+/* Resume Page */
 #fondBac, #fondPrepa, #fondPolytech {
-    width: 90%;
     max-width: 420px;
-    margin-left: 5%;
+    width: 90%;
 }
 #fondBac {
     height: 146px;
     background-image: url("../img/FondStJo.jpg");
 }
 #fondPrepa {
-    margin-top: 5%;
     height: 132px;
     background-image: url("../img/fondPierredAilly.jpg");
 }
@@ -164,138 +84,108 @@ h2 {
     height: 251px;
     background-image: url("../img/fondPolytech.jpg");
 }
-#resume p {
-    text-align: center;
-    font-family: 'Rouge Script', cursive; 
-    width: 100%;
-    padding-right: 5%;
-    padding-left: 5%;
-}
-#lamanu {
-    margin-top: 30px;
-}
-h3, #pracourtDev {
-    font-family: 'Rouge Script', cursive; 
-    text-align: center;
-}
-/* page compétences */
-#computerSkills, #languageSkills, #otherSkills {
-    float: left;
-    width: 33.33%;
-    background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
-}
+/* Skills Page */
 #computerSkills fieldset, #languageSkills fieldset, #otherSkills fieldset {
-    width: 90%;
     margin-bottom: 5%;
-    margin-left: 5%;
-    text-align: center;
 } 
-#skills p {
-    font-family: 'Rouge Script', cursive; 
-    font-size: 15px;
+legend, #postalAdress, #emailAdress, #phoneAdress {
+    width: 80%;
+    margin-left: 10%;
+    border-bottom: 1px solid black;
 }
-legend {
-    font-size: 15px;
-    font-style: italic;
-    font-family: 'Rouge Script', cursive; 
-    width: 32%;
-    margin-left: 34%;
-}
-.skillsSubtitle {
+.skillsSubtitle, .contentExperiences, .contentPortfolio {
     margin-top: 5%;
-    font-family: 'Rouge Script', cursive; 
-    text-align: center;
-}
-/* page Experiences */
-#ExperiencesTitle, #portfolioTitle {
-    width: 90%;
-    margin-left: 5%;
-    text-align: center;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    background-image: url("../img/fondParchemin.jpg");
-    border-style: inset;
-}
-.contentExperiences, .contentPortfolio {
-    float: left;
-    width: 90%;
-    border-style: inset;
-    margin-top: 5%;
-    margin-left: 5%;
-    background-image: linear-gradient(to top, grey , white 5%, white 95%, grey);
-}
-.contentExperiences h3, .contentPortfolio h3 {
-    padding-top: 50px;
-}
-h3 + p {
-    padding-top: 3%;
-}
-.contentExperiences img {
-    float: left;
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 10px;
-    padding-bottom: 30px;
-}
-.contentExperiences p, .contentPortfolio p {
-    margin-right: 30px;
-    margin-left: 30px;
-    font-size: 15px;
-    font-family: 'Rouge Script', cursive; 
-    text-align: justify;
 }
 /* page Portfolio */
-img[alt*="capture"] {
-    float: left;
-    padding-top: 40px;
-    padding-left: 30px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-}
 .contentPortfolio a {
-    float: right;
-    margin-right: 30px;
-    margin-top: 3%;
     padding-bottom: 5%;
+    padding-right: 5%;
 }
 /* page me contacter */
-#postalAdress, #emailAdress {
-    width: 520px;
-    margin-left: 40px;
-    border-bottom: 1px solid rgb(12, 12, 12);
+#postalAdress, #emailAdress, #phoneAdress {
     border-top: 1px solid rgb(12, 12, 12);
 }
-#postalAdress p, #emailAdress p {
-    padding-left: 40px;
+#postalAdress p, #emailAdress p, #phoneAdress p {
+    width: 80%;
+    padding-left: 6%;
 }
-#emailAdress p {
+#postalAdress picture, #emailAdress picture, #phoneAdress picture {
+    padding-right: 6%;
+    width: 20%;
+}
+/* BigScreen part */
+@media screen and (min-width:992px) {
+/* Menu */
+.row {
+    display: flex;
+    align-items: stretch;
+}
+#home, .navigationButton {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-#postalAdress img, #emailAdress a {
-    float: right;
-    padding-right: 40px;
+#home + div {
+    margin-top: 50px;
+}
+.navigationButton {
+    width: 100%;
+}
+/* Bandeau du haut */
+#topArea {
+    height: 200px;
+}
+h1 {
+    font-size: 40px;
+}
+h2 { 
+    font-size: 30px; 
+}
+/* page d'accueil   */
+#contentHome, #contentContact {
+    width: 646px;
+    height: 486px;
+}
+#myPictureHome, #wellcomes {
+    height: 480px;
+}
+#wellcomesText, .presentationText { 
+    font-size: 17px; 
+}
+/* Page formation */
+#resumeColon, #skillsColon {
+    display: flex;
+    align-items: stretch;
+}
+#parcourtInitial, #urbanisme, #pracourtDev {
+    width: 33.333333%;
+}
+/* page compétences */
+#computerSkills, #languageSkills, #otherSkills {
+    width: 33.33%;
+}
+/* page Experiences */
+.contentExperiences, .contentPortfolio {
+    background-image: linear-gradient(to top, grey , white 5%, white 95%, grey);
+}
+.contentExperiences img, .contentPortfolio img {
+    float: left;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+}
+.contentExperiences p, .contentPortfolio p {
+    font-size: 17px;
 }
 }
+/* Small Screen */
 @media screen and (max-width:991px) {
 /* Menu */
 #menuNavigation {
-    background-image: url("../img/leftFond.jpg");
     height: 110px;
-    background-color: rgb(75, 80, 80);
 }
-#home, #englishButton, #frenchButton, .navigationButton {
-    float: left;
-    text-align: center;
-    height: fit-content;
-} 
 #home {
-    width: 100%;
     margin-top: -40px;
-}
-#englishButton, #frenchButton {
-    margin-top: 10px;
-    width: 50%; 
 }
 .navigationButton {
     margin-bottom: 5px;
@@ -304,226 +194,47 @@ img[alt*="capture"] {
 /* Bandeau du haut */
 #topArea {
     height: 90px;
-    background-image: url("../img/topFond.jpg");
-}
-#globalTitle {
-    color: white;
-    padding-left: 5%;
-    padding-top: 2%;
 }
 h1 {
     font-size: 18px;
 }
+h2 {
+    font-size: 18px;
+}
 h3 {
-    text-align: center;
     font-size: 15px;
 }
-#contentPage {
-    float: left;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    background-image: url("../img/fondFroisser.jpg");
+p {
+    font-size: 10px;
 }
 /* page d'accueil   */
-#contentHome, #contentContact {
+#contentHome {
     width: 326px;
     height: 246px;
-    border-style: inset;
-    margin: 0 auto;
-    background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
 }
 #myPictureHome, #wellcomes {
-    float: left;
-    width: 50%;
     height: 240px;
 }
-#wellcomes {
-    background-image: linear-gradient(to right, grey , white 10%, white 90%, grey);
-}
-#wellcomesTitle, #presentationTitle {
-    padding-top: 10px;
-    text-align: center;
-}
-#wellcomesText, .presentationText { 
-    color: #7a7c7f; 
-    font-size: 10px; 
-    text-indent: 30px;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: justify;
-    font-family: "Libre Baskerville", serif; 
-    line-height: 10px; 
-    padding-top: 10px; 
-}
-h2 { 
-    color: rgb(141, 166, 219); 
-    font-family: 'Rouge Script', cursive; 
-    font-size: 20px; 
-    font-weight: normal; 
-    text-align: center; 
-    text-shadow: 1px 1px 2px #303131; 
-}
-/* Page présentation */
-#presentation, #resume{
-    float: left;
-    margin-left: 5%; 
-    width: 90%;
-    border-style: inset;
-    background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
-}
-#presentationTitle {
-    padding-right: 5%;
-}
-.presentationText {
-    padding-right: 5%;
-    padding-left: 5%;
-}
-#presentationPicture {
-    float: left;
-    padding-top: 2%;
-    padding-right: 2%;
-    padding-bottom: 2%;
-    padding-left: 5%;
-}
 /* Page formation */
-#resumeTitle, #skillsTitle, #contactTitle {
-    padding-top: 1px;
-    padding-bottom: 1px;
-    height: fit-content;
-    text-align: center;
-    border-bottom-style: outset;
-    background-image: url("../img/fondParchemin.jpg");
-}
-#parcourtInitial h3, #fondPrepa, #lamanu {
-    margin-top: 5%;
-}
 #parcourtInitial, #urbanisme, #pracourtDev {
     width: 100%;
 }
-#fondBac, #fondPrepa, #fondPolytech {
-    width: 90%;
-    max-width: 420px;
-    margin: 0 auto;
-    margin-bottom: 5%;
-}
-#fondBac {
-    height: 146px;
-    background-image: url("../img/FondStJo.jpg");
-}
-#fondPrepa {
-    height: 132px;
-    background-image: url("../img/fondPierredAilly.jpg");
-}
-#fondPolytech {
-    height: 251px;
-    background-image: url("../img/fondPolytech.jpg");
-}
-div[id*="fond"] p {
-    color: rgb(253, 253, 253);
-    text-shadow: 2px 2px rgb(12, 12, 12); 
-}
-#pracourtDev {
-    text-align: center;
-}
 /* page compétences */
-#skills{
-    float: left;
-    width: 90%;
-    margin-left: 5%;
-    border-style: inset;
-}
 #computerSkills, #languageSkills, #otherSkills {
-    float: left;
     width: 100%;
 } 
-#computerSkills {
-    background-image: url("../img/fondBinaire.jpg");
-}
-#languageSkills {
-    background-image: url("../img/fondWorld.jpg");
-}
-#otherSkills {
-    height: 503px;
-    background-image: url("../img/fondPageCarreaux.png");
-}
-#computerSkills fieldset, #languageSkills fieldset {
-    background-color: rgba(255, 253, 253, 0.4);
-    width: 90%;
-    height: 120px;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    text-align: center;
-    border-radius: 20px;
-} 
-legend {
-    background-color: rgba(255, 253, 253, 0.5);
-    border-radius: 4px;
-    font-size: 15px;
-    width: 32%;
-    margin-left: 4%;
-}
-.skillsSubtitle {
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 4px;
-    font-size: 18px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-weight: bold;
-    text-align: center;
-}
-#languageSkills img {
-    float: left;
-}
 /* page Experiences */
-#ExperiencesTitle, #portfolioTitle {
-    width: 90%;
-    margin-left: 5%;
-    text-align: center;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    background-image: url("../img/fondParchemin.jpg");
-    border-style: inset;
-}
 .contentExperiences, .contentPortfolio {
-    float: left;
-    width: 90%;
-    border-style: inset;
-    margin-top: 5%;
-    margin-left: 5%;
     text-align: center;
     background-image: linear-gradient(to right, grey , white 5%, white 95%, grey);
 }
-/* page Portfolio */
-img[alt*="capture"], .contentExperiences img {
+.contentPortfolio img, .contentExperiences img {
     padding-top: 5%;
     padding-bottom: 5%;
 }
-.contentPortfolio h3, #resume h3, .contentExperiences h3 {
-    font-weight: bold;
-}
-.contentPortfolio p, #pracourtDev p, .contentExperiences p {
-    padding-right: 5%;
-    padding-left: 5%;
-    text-align: justify;
-}
-.contentPortfolio a {
-    float: right;
-    padding-bottom: 5%;
-    padding-right: 5%;
-}
-/* page me contacter */
-#postalAdress, #resume h3, #emailAdress {
-    width: 80%;
-    margin-left: 10%;
-    border-bottom: 1px solid rgb(12, 12, 12);
-    border-top: 1px solid rgb(12, 12, 12);
-}
-#postalAdress p, #emailAdress p {
-    padding-left: 5%;
-    font-size: 10px;
-}
-#postalAdress img, #emailAdress a {
-    float: right;
-    font-size: 10px;
+/* page contact */
+#contentContact {
+    width: 326px;
+    height: 300px;
 }
 }
