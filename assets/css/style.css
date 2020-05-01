@@ -113,6 +113,10 @@ legend, #postalAdress, #emailAdress, #phoneAdress {
     padding-right: 6%;
     width: 20%;
 }
+#contentContact img {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 /* BigScreen part */
 @media screen and (min-width:992px) {
 /* Menu */
